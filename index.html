@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0E2A47">
+    <title>Calcucoin</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./cc.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9992ecc713.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+ <section class="Home">
+     <nav class="navBar">
+         <div class="logo">
+             <img src="./cc.png" alt="Logo"/>
+             <a href="#"><h1>Calcucoin</h1></a>
+         </div>
+         <div class="soc-med">
+             <a href="https://twitter.com/RegRafik?t=xNzTXvbEoLF8CK3vvGRFeA&s=09"><p><i class="fab fa-twitter"></i> Twitter</p></a>
+             <a href="https://github.com/RafikReguig"><p><i class="fab fa-github"></i> GitHub</p></a>
+         </div>
+         <div class="menuBars">
+            <div class="bar"></div>
+         </div>
+     </nav>
+     <div class="main">
+       <di class="background">
+          <img class='coin tim1' src="./coins/bnb.png">
+          <img class='coin tim2' src="./coins/btc.png">
+          <img class='coin tim3' src="./coins/doge.png">
+          <img class='coin tim1' src="./coins/eth.png">
+          <img class='coin tim2' src="./coins/ftm.png">
+          <img class='coin tim3' src="./coins/sand.png"> 
+          <img class='coin tim3' src="./coins/ada.png">
+          <img class='coin tim1' src="./coins/avax.png">
+          <img class='coin tim2' src="./coins/dfi.png">
+          <img class='coin tim3' src="./coins/luna.png">
+          <img class='coin tim2' src="./coins/shib.png">
+          <img class='coin tim1' src="./coins/btc.png">
+          <img class='coin tim2' src="./coins/xrp.png">
+          <img class='coin tim3' src="./coins/trx.png">
+          <img class='coin tim1' src="./coins/sol.png">
+          <img class='coin tim2' src="./coins/bnb.png">
+          <img class='coin tim1' src="./coins/dfi.png">
+          <img class='coin tim3' src="./coins/sol.png">
+          <img class='coin tim1' src="./coins/eth.png">
+          <img class='coin tim2' src="./coins/xrp.png">
+          <img class='coin tim3' src="./coins/btc.png">
+          <img class='coin tim1' src="./coins/doge.png">
+          <img class='coin tim2' src="./coins/eth.png">
+          <img class='coin tim3' src="./coins/luna.png">
+          <img class='coin tim1' src="./coins/avax.png">
+          <img class='coin tim2' src="./coins/shib.png">
+          <img class='coin tim3' src="./coins/ftm.png">
+          <img class='coin tim2' src="./coins/sand.png"> 
+          <img class='coin tim1' src="./coins/ada.png">
+          <img class='coin tim3' src="./coins/trx.png">
+       </div>
+       <div class="form-content">
+         <div class="up-content">
+            <h2>Calculate the percentage of gain or lose, and check the exchange rates on crypto currencies.</h2>
+            <p>Chose a tool:</p>
+            <div class='check-btns'>
+              <button class="calc-btn">Calculator</button>
+              <button class="conv-btn">Converter</button>
+            </div> 
+         </div>
+         <form>
+            <div class='calcu'>
+                <label for="entre-price">Enter the Initial Price:</label>
+                <input type="number" class='input' id='enter-pr' required>
+                <label for="entre-price">Enter the Final Price:</label>
+                <input type="number" class='input' id='exit-pr' required>
+                <button class='btn'>Calculate</button>
+            </div>
+            <div class="conver hide">
+                <div class="f-input">
+                    <label for="">From Currency Name: </label>
+                    <div class='inputs-div'>
+                        <input class='inputs inputOne' type="number" value="">
+                        <select Name='choice' value='' class="options1"></select>
+                    </div> 
+                  </div>
+                  <div class="f-input">
+                    <label for="">To Currency Name: </label> 
+                    <div class='inputs-div'>
+                        <input class='inputs inputTwo' type="number" value="" disabled>
+                        <select name="choice" value='' class='options2'></select>
+                    </div>
+                 </div>
+                 <button id='convert-btn' class="btn" type="button">Convert</button>
+                 <p class='error'></p>
+            </div>
+         </form>
+         <div class="res-con"></div>
+       </div>
+       <footer>
+        <h3>Have a product? Let's make it Popular</h3>
+        <h4>Contact me: <a href='mailto:reguig.rafik@yahoo.com'> reguig.rafik@yahoo.com</a></h4>
+        <p>&copy All Right Reserved | 2021.</p>
+    </footer>
+ </section>
+<script src="./app.js"></script>
+</body>
+</html>
